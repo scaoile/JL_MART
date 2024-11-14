@@ -14,8 +14,9 @@ AS AN ADMIN
 1. POPULATE CATEGORIES FIRST (i.e: Snacks) P.S. This can be populated in the Inventory page of the manager
 
 2. POPULATE PRODUCTS AS WE HAVE NO COMMUNICATION WITH JL MART P.S. This can be populated in the Inventory page of the manager
+Remove the products that are just used for representation
 
-3. POPULATE THE REPLY ON REVIEWS AND RATINGS AFTER POPILATING THE REVIEWS AS A USER
+3. POPULATE THE REPLY ON REVIEWS AND RATINGS AFTER POPULATING THE REVIEWS AS A USER
 
 AS A USER
 
