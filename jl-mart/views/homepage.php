@@ -49,10 +49,24 @@ $reviews = $reviews->getFeedback();
                 </div>
                 <div class="down-right">
                     <div class="down-right-text">
-                        <p>
-                            We'd love to hear your thoughts!
-                            <button class="rateButton" onclick="openPopup()">Click me to Rate!</button>
-                        </p>
+                        <?php
+
+                        if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'customer') {
+                            echo "
+                                <p>
+                                    We'd love to hear your thoughts!
+                                    <a style='color: white;' class='rateButton' href='homepage.php?message=Please Log in to Rate Us'>Click me to Rate!</a>
+                                </p>
+                            ";
+                        } else {
+                            echo "
+                                <p>
+                                    We'd love to hear your thoughts!
+                                    <button class='rateButton' onclick='openPopup()'>Click me to Rate!</button>
+                                </p>
+                            ";
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
