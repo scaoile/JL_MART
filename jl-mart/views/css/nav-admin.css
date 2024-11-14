@@ -50,6 +50,7 @@ h2,h3 {
 }
 
 .right-nav {
+    gap: 20px;
     width: 50%;
     justify-content: flex-end;
 }
