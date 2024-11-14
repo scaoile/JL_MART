@@ -16,6 +16,9 @@
     </div>
     <div class="right-nav">
         <div class="cart"><a href="adminInventory.php"><span class="cart-text">Inventory</span></a></div>
+        <a href='../includes/logout.inc.php'>
+            Logout
+        </a>
     </div>
 </div>
 
